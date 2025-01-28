@@ -3,12 +3,12 @@ server:
   wait-time-in-ms-when-sync-empty: 3000
 
 spring:
-  profiles:
-    active: native
+  # profiles:
+  #   active: native
   datasource:
-    url: jdbc:postgresql://localhost:5432/nome_do_banco
-    username: seu_usuario
-    password: sua_senha
+    url: jdbc:postgresql://localhost:5432/payment_db
+    username: postgres  
+    password: postgres
     driver-class-name: org.postgresql.Driver
     dialect: org.hibernate.dialect.PostgreSQLDialect
     jpa:
