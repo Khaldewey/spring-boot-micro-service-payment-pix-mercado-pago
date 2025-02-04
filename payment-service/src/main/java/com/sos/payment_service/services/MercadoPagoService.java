@@ -19,7 +19,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Service
 public class MercadoPagoService {
 
-    @Value("${mercadopago.access.token}")
+    // @Value("${mercadopago.access.token}")
+    @Value("TEST-191553553627645-052119-e02f16e5c678bc716b9d93cfcdba8d03-472243321")
     private String accessToken;
 
     private final RestTemplate restTemplate;
